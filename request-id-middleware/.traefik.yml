@@ -1,0 +1,19 @@
+# Displayed in the Traefik Pilot web UI.
+displayName: Request Id Middleware
+
+type: middleware
+
+import: github.com/disturb/traefik-plugins/request-id-middleware
+
+summary: Adds an unique Id to the headers.
+
+# Medias associated to the plugin (optional)
+# iconPath: foo/icon.png
+# bannerPath: foo/banner.png
+
+# Configuration data for your plugin.
+# This is mandatory,
+# and Traefik Pilot will try to execute the plugin with the data you provide as part of its startup validity tests.
+testData:
+  HeaderName:
+    Foo: Bar
