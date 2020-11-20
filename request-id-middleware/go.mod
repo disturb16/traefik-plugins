@@ -1,4 +1,4 @@
-module github.com/disturb/traefik-plugins/request-id-middleware
+module github.com/disturb16/traefik-plugins/request-id-middleware
 
 go 1.15
 

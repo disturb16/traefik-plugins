@@ -3,7 +3,7 @@ displayName: Request Id Middleware
 
 type: middleware
 
-import: github.com/disturb/traefik-plugins/request-id-middleware
+import: github.com/disturb16/traefik-plugins/request-id-middleware
 
 summary: Adds an unique Id to the headers.
 
